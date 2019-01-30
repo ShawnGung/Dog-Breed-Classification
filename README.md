@@ -7,6 +7,12 @@
 - pytorch
 - numpy
 
+# 运行
+- 下载并解压数据集：https://www.kaggle.com/c/dog-breed-identification/data
+- 首先把kaggle的数据放到[data/dog_breed/](data/dog_breed)下
+- [features_extract.ipynb](features_extract.ipynb) 导出三种模型输出的特征
+- [model_combining.ipynb](model_combining.ipynb) 利用单层神经网络训练合并好的特征,然后在测试集上进行预测
+
 # 感悟
 - 通过融合vgg19/resnet152/desnet161的特征,通过训练单层网络训练这些特征达到transfer learning的效果
 - 在进行特征融合的时候,时刻保持各种网络特征层输出形状一样
