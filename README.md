@@ -1,6 +1,6 @@
 # Dog-Breed-Identification-Kaggle
 
-[Kaggle](https://www.kaggle.com/c/dog-breed-identification) 
+[Kaggle 狗品种分类比赛](https://www.kaggle.com/c/dog-breed-identification) 
 
 # 环境
 - python
